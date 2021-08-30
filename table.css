@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.head{
+    width: 100%;
+    height: 100px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    line-height: 60px;
+}
+.head h2{
+    color: rgb(129, 186, 224);
+    text-decoration: underline;
+}
+.page{
+    width: 100%;
+    height: 150px;
+    /* background-color: cornsilk; */
+    align-items: center;
+}
+.page1{
+    width: 100%;
+    height: 200px;
+    /* background-color: white; */
+    align-items: center;
+}
+
+table{
+    text-align:left;
+    margin-top:10;
+
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+    
+}
+
+th,td{
+    width:120px ;
+    border: 1px solid gray;
+    font-size: 1rem;
+    padding: 2px;;
+}
+.sale{
+    width: 90%;
+    margin: 30px;
+    /* background-color: burlywood; */
+
+}
+.color{
+    background-color: #F5F5F5;
+
+}
+
+.sales2{
+    width: 90%;
+    margin: 30px;
+
+}
+
+.sales2 th{
+    text-align: center;
+    margin-top: 10px;
+}
+.sales2 .color{
+    background-color:#F5F5F5;
+
+}
+.sales2 tr:nth-child(1){
+    background-color:#F5F5F5;
+}
+.left{
+    text-align: end;
+}
+.col1{
+    width: 30px;
+    text-align: center;
+
+}
+#wid{
+    width:60px;
+}
+#leswid{
+    width: 100px;
+}
+.foot{
+    width: 100%;
+    height: 500px;
+    /* background-color: burlywood; */
+    position: relative;
+}
+ 
+.card1{
+    width:15%;
+    height: 100px;
+    background-color: #F5F5F5;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    left: 30px;
+    text-align: center;
+    text-decoration:underline;
+    border: 1px solid grey;
+}
+
+.card2{
+    width:15%;
+    height: 100px;
+    background-color: #F5F5F5;
+    position: absolute;
+    float: right;
+    bottom: 0;
+    right: 90px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid grey;
+
+} 
